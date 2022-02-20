@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/styles.css"/>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <title>Friends - KoKoa Clone</title>
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+            <i class="fas fa-location-arrow"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>57%</span>
+            <i class="fas fa-battery-half fa-lg"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="screen-header">
+        <h1 class="screen-header__title">Friends</h1>
+        <div class="screen-header__icons">
+            <span><i class="fas fa-search fa-lg"></i></span>
+            <span><a href="music.html"><i class="fas fa-music fa-lg"></i></a></span>
+            <span><i class="fas fa-cog fa-lg"></i></span>
+        </div>
+    </header>
+
+    <a id="friends-display-link">
+        <i class="fas fa-info-circle"></i>
+        Friends' Names Display
+        <i class="fas fa-chevron-right fa-sm"></i>
+    </a>
+
+    <main class="friends-screen">
+        <div class="user-component">
+            <div class="user-component__column">
+                <img 
+                 src="photo/치와와.jpg" 
+                 class="user-component__avatar user-component__avatar--xl"
+                 />
+                <div class="user-component__text">
+                    <div class="user-component__title"> an9ae </div>
+                    <h6 class="user-component__subtitle"> 너 와와가 왜 강한지 알아? 깡과 총이 있기 때문이야 </h6> 
+                </div>
+            </div>
+            <div class="user-component__column"></div>
+        </div>
+        <div class="friends-screen__channel">
+            <div class="friends-screen__channel-header">
+                <span>Favorites</span>
+                <i class="fas fa-chevron-up fa-sm"></i>
+            </div>
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img 
+                     src="photo/10.jpg" 
+                     class="user-component__avatar user-component__avatar--sm"
+                     />
+                    <div class="user-component__text">
+                        <h4 class="user-component__title user-component__title--not-bold"> Sopie </h4>
+                    </div>
+                </div> 
+                
+                <div class="user-component__column"></div>  
+            </div>
+
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img 
+                     src="photo/11.jpg" 
+                     class="user-component__avatar user-component__avatar--sm"
+                     />
+                    <div class="user-component__text">
+                        <h4 class="user-component__title user-component__title--not-bold"> Julie </h4>
+                    </div>
+                </div> 
+                <div class="user-component__column">
+                    <div class="user-component__music">
+                        Love Sick-SHINee
+                       <i class="ri-play-line ri-lg" style="color:rgb(152, 226, 42);"></i>
+                   </div>    
+                </div>  
+            </div>
+
+            <div class="friends-screen__channel">
+                <div class="friends-screen__channel-header">
+                    <span>Friends</span>
+                    <i class="fas fa-chevron-up fa-sm"></i>
+                </div>
+                <div class="user-component">
+                    <div class="user-component__column">
+                        <img 
+                         src="photo/12.jpg" 
+                         class="user-component__avatar user-component__avatar--sm"
+                         />
+                        <div class="user-component__text">
+                            <h4 class="user-component__title user-component__title--not-bold"> Emma </h4>
+                        </div>
+                    </div> 
+                    <div class="user-component__music">
+                         Time Moves Slow...
+                        <i class="ri-play-line ri-lg" style="color:rgb(152, 226, 42);"></i>
+                    </div>      
+                </div>
+                <div class="user-component">
+                    <div class="user-component__column">
+                        <img 
+                         src="photo/13.jpg" 
+                         class="user-component__avatar user-component__avatar--sm"
+                         />
+                        <div class="user-component__text">
+                            <h4 class="user-component__title user-component__title--not-bold"> Andrea  </h4>
+                        </div>
+                    </div> 
+                    <div class="user-component__music">
+                        What You Won't Do for Love...
+                       <i class="ri-play-line ri-lg" style="color:rgb(152, 226, 42);"></i>
+                   </div>    
+                </div>
+                <div class="user-component">
+                    <div class="user-component__column">
+                        <img 
+                         src="photo/14.jpg" 
+                         class="user-component__avatar user-component__avatar--sm"
+                         />
+                        <div class="user-component__text">
+                            <h4 class="user-component__title user-component__title--not-bold"> Tom </h4>
+                        </div>
+                    </div> 
+                    <div class="user-component__column"></div>      
+                </div>
+
+    </main>
+
+     <nav class="nav">
+         <ul class="nav__list">
+             <li class="nav__btn">
+                 <a class="nav__link" href="friends.html">
+                    <img src="photo/User_perspective_matte_s.png" width="47px" height="47px">
+                 </a>
+                </li>
+             <li class="nav__btn">
+                 <a class="nav__link" href="chats.html">
+                  <span class="nav__notification badge">1</span>
+                  <img src="photo/Comment_perspective_matte_ss.png" width="47px" height="47px"></a>
+                </li>
+             <li class="nav__btn">
+                 <a class="nav__link" href="view.html">
+                    <img src="photo/Burger_perspective_matte_s.png" width="47px" height="47px">
+                 </a>
+             </li>    
+             <li class="nav__btn">
+                 <a class="nav__link" href="shopping.html">
+                 <img src="photo/Shop_perspective_matte_s.png" width="47px" height="47px"></a>
+                </li>
+             <li class="nav__btn">
+                 <a class="nav__link" href="more.html">
+                  <span class="nav__dot"></span>
+                  <img src="photo/Settings_perspective_matte_s.png" width="47px" height="47px"></a>
+            </li>
+         </ul>
+     </nav>
+
+     <div id="splash-screen">
+        <img class="splash-screen__slide-top" src="photo/perspective_matte2.png" width="250" height="250">
+     </div>
+
+     <div id="no-mobile">
+        <img class="no-mobile__img" src="photo/Marketing_perspective_matte_s.png"/>
+        <span class="no-mobile__text">Your Screen is too big ...</span>
+    </div>
+
+    <script
+     src="https://kit.fontawesome.com/6478f529f2.js"
+    crossorigin="anonymous"
+    ></script>
+
+    
+</body>
+</html>
