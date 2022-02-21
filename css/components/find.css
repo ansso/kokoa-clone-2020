@@ -1,6 +1,6 @@
 
 .recommend-friends{
-    margin: 25px 0px;
+    margin-bottom: 25px;
     padding: 25px 0px;
     border-top: var(--main-border);
     border-bottom: var(--main-border);
@@ -13,7 +13,7 @@
 }
 
 .recommend-friends span {
-    margin: 110px 0px;
+    margin: 100px 0px;
     display: block;
     text-align: center;
     color: rgba(0,0,0,0.5);
