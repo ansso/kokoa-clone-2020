@@ -1,6 +1,7 @@
 .search-box{
     display: flex;
     justify-content: flex-start;
+    padding-bottom: 20px;
 }
 .search-box__1{  
     margin: 5px var(--horizontal-space);
